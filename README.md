@@ -1,8 +1,8 @@
 # Clinic Appointments — No-Show Analysis
 
 **Course:** Final Project  
-**Author:** Your Name  
-**Repo:** This repository contains the code, data, and slides for my course project analyzing appointment no-shows at a (synthetic) clinic.
+**Author:** Gokce Donnelly  
+**Repo:** This repository contains the code, data, and slides for my course project analyzing appointment no-shows at a synthetic clinic.
 
 ## Project Goal
 Help a clinic reduce no-shows by understanding what factors (SMS reminders, wait time / lead time, prior no-shows, distance, weekend, rain) are associated with higher or lower no-show rates, and recommend operational changes.
@@ -22,21 +22,9 @@ Help a clinic reduce no-shows by understanding what factors (SMS reminders, wait
 - **`docs/summary.md`** – 1-page executive summary
 - **`slides/final_presentation.pptx`** – slide deck for a 5-minute talk
 
-## Tools
-Python, Jupyter, pandas, numpy, matplotlib.
-
 ## Key Questions Answered
 1. What is the overall no-show rate?
 2. Do **SMS reminders** reduce no-shows?
 3. How does **lead time** (days between booking and appointment) relate to no-shows?
 4. Do **prior no-shows** predict new no-shows?
 5. Are **distance**, **weekend**, or **rain** associated with no-shows?
-
-## How to Run
-1. Clone/download the repo.
-2. Put the CSV in `data/`.
-3. Open `Milestone_Final.ipynb` and run all cells (Kernel → Restart & Run All).  
-   The notebook saves `data/clinic_appointments_clean.csv`.
-
-## License
-Educational use.
